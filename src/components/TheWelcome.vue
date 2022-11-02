@@ -8,6 +8,7 @@
 </script>
 
 <template>
+  <h2>hello world</h2>
   <!-- <WelcomeItem>
     <template #icon>
       <DocumentationIcon />

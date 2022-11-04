@@ -3,9 +3,11 @@ import { ref } from 'vue';
 
 const txt1 = ref("txt1")
 const txt2 = ref("txt2")
+const ccd = ref(0)
 function getInput(){
   txt1.value =  "i got you"
   txt2.value = "i got u too"
+  ccd.value= 2000 + Math.random() * 5000
 
 }
 
@@ -24,6 +26,7 @@ function getInput(){
       <h3>inputs .......</h3>
       <p>{{txt1}}</p>
       <p>{{txt2}}</p>
+      <p>{{ccd}}</p>
       <button @click="getInput">Get</button>
     </div>
   </template>

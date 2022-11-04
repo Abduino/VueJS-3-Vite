@@ -14,12 +14,13 @@ function getInput(){
 </script>
 
 <template>
-    <div class="contact">
-      <h1>This is contact page</h1>
-    </div>
+    <!-- <div class="contact">
+   </div> -->
     <div class="form">
-        <input type="text" name="txtFname"/><br/>
-        <input type="text" name="txtLname"/><br/>
+      <h3>This is contact page</h3>
+    
+        <input class="txt" type="text" name="txtFname"/><br/>
+        <input class="txt" type="text" name="txtLname"/><br/>
         <button name="btnSubmit">Submit</button> 
     </div>
     <div>
@@ -39,11 +40,15 @@ function getInput(){
       align-items: center;
     } */
   .form{
-    padding: 30px;
+    margin-top: 10px;
+    padding: 20px;
     border-style: solid;
     border-width: 1px;
     border-radius: 20px;
     border-color: black;
+  }
+  .txt{
+    margin: 5px;
   }
   </style>
   

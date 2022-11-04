@@ -18,6 +18,7 @@ function getInput(){
    </div> -->
     <div class="form">
       <h3>This is contact page</h3>
+      <h3>This is contact page</h3>
     
         <input class="txt" type="text" name="txtFname"/><br/>
         <input class="txt" type="text" name="txtLname"/><br/>

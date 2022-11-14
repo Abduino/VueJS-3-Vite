@@ -1,8 +1,8 @@
 <style>
     body{
-        width: 50px;
-        max-width: 800px;
-        min-width: 480px;
+        /* width: 50px; */
+        max-width: 900px;
+        /* min-width: 480px; */
         margin: 0 auto;
     }
     .form input[type="number"] {

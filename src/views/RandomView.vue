@@ -1,3 +1,6 @@
+
+
+
 <script setup>
 import  {ref}  from 'vue';
 // console.log("main func")
@@ -13,17 +16,27 @@ function timerStart(){
   // console.log(isPlaying)
 }
 </script>
-<template>
-    <div class="profile">
-      <h1>This is profile page</h1>
-      <button @click="timerStart">play</button>
-      <h3>This is my real data</h3>
-      <h2>{{dat}}</h2>
-    </div>
-  </template>
 
-  
+<template>
+  <div class="random">
+    <h1>Random number generator</h1>
+      <button class="btnGenerator" @click="timerStart">Generate</button>
+      
+      <h1>{{dat}}</h1>
+  </div>
+</template>
   <style>
+  .raandom{
+    padding: 20px;
+  }
+  .btnGenerator{
+    width: 200px;
+    height: 50px;
+    background-color: white;
+    border-radius: 20px;
+    border-color: rgb(71, 71, 71);
+    font-size: larger;
+  }
   /* @media (min-width: 1024px) {
     .about {
       min-height: 100vh;

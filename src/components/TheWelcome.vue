@@ -2,6 +2,6 @@
 </script>
 
 <template>
-  <h2>hello world</h2>
+  <h2>Click Random to generate random numbers</h2>
   
 </template>

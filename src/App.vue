@@ -12,16 +12,15 @@ import HelloWorld from './components/HelloWorld.vue'
 
       <nav>
         <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
+        <RouterLink to="/random">Random</RouterLink>
         <RouterLink to="/contact">Contact</RouterLink>
-        <RouterLink to="/profile">Profile</RouterLink>
+        <!-- <RouterLink to="/profile">Profile</RouterLink> -->
       </nav>
     </div>
   </header>
 
   <RouterView />
 </template>
-
 <style scoped>
 header {
   line-height: 1.5;
@@ -29,6 +28,7 @@ header {
 }
 
 .logo {
+  margin-top: 50px;
   display: block;
   margin: 0 auto 2rem;
 }
